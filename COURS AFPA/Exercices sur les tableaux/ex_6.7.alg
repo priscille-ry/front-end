@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Algo>
+    <description courant="AFFICHERCALCUL tab[i].length" texte=""/>
+    <extension extnom="inactif"/>
+    <fonction fctetat="inactif" fctcode=""/>
+    <F2 F2para="" F2defaut="" F2etat="inactif" F2lignes=""/>
+    <repere repcode="-10#10#-10#10#2#2" repetat="inactif"/>
+    <param arrondiAuto="vrai" nbDecimales="8" epaisseurPoint="2" totalAffichages="1000" maxBoucle="500000" totalBoucles="5000000" epaisseurLigne="2"/>
+    <item algoitem="FONCTIONS_UTILISEES" code="200#declarationfonctions"/>
+    <item algoitem="VARIABLES" code="100#declarationsvariables">
+        <item algoitem="tab EST_DU_TYPE LISTE" code="1#LISTE#tab"/>
+        <item algoitem="i EST_DU_TYPE NOMBRE" code="1#NOMBRE#i"/>
+        <item algoitem="note EST_DU_TYPE NOMBRE" code="1#NOMBRE#note"/>
+    </item>
+    <item algoitem="DEBUT_ALGORITHME" code="101#debutalgo">
+        <item algoitem="POUR i ALLANT_DE 0 A 8" code="12#i#0#8">
+            <item algoitem="DEBUT_POUR" code="13#debutpour"/>
+            <item algoitem="AFFICHER &quot;entrez la note numero&quot;" code="4#entrez la note numero#0"/>
+            <item algoitem="AFFICHERCALCUL i+1" code="20#i+1#0"/>
+            <item algoitem="LIRE note" code="2#note#pasliste"/>
+            <item algoitem="tab[i] PREND_LA_VALEUR note" code="5#tab#note#i"/>
+            <item algoitem="FIN_POUR" code="14#finpour"/>
+        </item>
+        <item algoitem="POUR i ALLANT_DE 0 A length" code="12#i#0#length">
+            <item algoitem="DEBUT_POUR" code="13#debutpour"/>
+            <item algoitem="AFFICHER tab[i]" code="3#tab#1#i"/>
+            <item algoitem="AFFICHERCALCUL tab[i].length" code="20#tab[i].length#0"/>
+            <item algoitem="" code="103#commentaire"/>
+            <item algoitem="FIN_POUR" code="14#finpour"/>
+        </item>
+    </item>
+    <item algoitem="FIN_ALGORITHME" code="102#finalgo"/>
+</Algo>
