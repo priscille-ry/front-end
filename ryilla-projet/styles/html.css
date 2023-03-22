@@ -1,0 +1,95 @@
+/*################### nav ###########################*/
+#wrap a:hover{
+    background-color: #555;
+    color: white;
+}
+
+
+
+/*############################# main #######################*/
+
+.laclouise1 {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+.lacmoraine1 {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    margin-top: 3%;
+}
+
+.lacpeyto1 {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+
+.lacmoraine2 {
+    margin-right: 5%;
+    border-radius: 40%;
+}
+
+.lacpeyto2 {
+    margin: 3%;
+    border-radius: 5% 95% 1% 99% / 85% 32% 68% 15%;
+
+
+}
+
+.paraph1,
+p {
+    text-align: center;
+    padding-top: 0%;
+    margin: 3%;
+    font-size: 115%;
+    font-style: oblique;
+    font-weight: bolder;
+    font-weight: 900;
+    position: relative;
+
+
+}
+
+.paraph2 {
+    text-align: justify;
+    padding-top: 0%;
+    margin: 3%;
+    font-size: 115%;
+    font-style: oblique;
+    font-weight: bolder;
+    font-weight: 900;
+}
+
+.paraph3 {
+    text-align: justify;
+    padding-top: 0%;
+    margin: 3%;
+    font-size: 115%;
+    font-style: oblique;
+    font-weight: bolder;
+    font-weight: 900;
+}
+
+.titre {
+    font-style: italic;
+    font-style: oblique;
+    font-weight: bolder;
+    text-align: center;
+}
+
+td,
+th {
+    border: 1px solid black;
+}
+
+.table {
+    border-collapse: collapse;
+    font-style: italic;
+    font-style: oblique;
+    font-weight: bolder;
+    table-layout: auto;
+    width: 70%;
+    text-align: center;
+    margin-left: 12%;
+}
+
+body{
+    background-color: rgba(128, 128, 128, 0.195);
+}

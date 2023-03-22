@@ -1,0 +1,26 @@
+
+
+
+/*######################## nav ######################*/
+
+#banniere {
+    width: 200px;
+}
+
+
+
+.carousel-item{
+    height: 93vh;
+    object-fit: contain;
+}
+
+#carouselExampleFade{
+  
+  font-style: italic;
+  font-weight: bolder;
+font-size: 215%;
+
+}
+
+
+
