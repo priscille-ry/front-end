@@ -142,3 +142,6 @@ if (salaire <= 1200)
     }
 }
 console.log(participation);*/
+
+
+
