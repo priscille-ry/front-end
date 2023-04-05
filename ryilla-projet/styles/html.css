@@ -47,6 +47,30 @@ th {
     margin-left: 12%;
 }
 
+.text-center {
+    background-color: rgba(0, 0, 0, 0.2);
+    margin-top: 2%;
+    padding: 0.5%;
+    font-weight: 900;
+    font-size: larger;
+
+}
+
+.video {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+
+
+
+
+}
+
+iframe {
+    width: 50%;
+    height: 350px;
+}
+
 body {
     background-color: rgba(128, 128, 128, 0.195);
 }

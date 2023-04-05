@@ -1,0 +1,14 @@
+{
+    "Name": "Chez prisca",
+    "Slogan": "Venez mangez la meilleur pizza du monde",
+    "Pizzas": [
+        {
+            "Nom": "La cheese Lover",
+            "Image": "https://img.freepik.com/photos-gratuite/pizza-mixte-divers-ingredients_140725-3790.jpg?w=1380&t=st=1680704216~exp=1680704816~hmac=a4a3fa30f9c1497441db0213028d8641ac87921525843321ce5bb7d7d622e57d",
+            "Prix":"12.90 euros"
+
+        }
+
+
+    ]
+}
