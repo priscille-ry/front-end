@@ -1,0 +1,36 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(85, 85, 85);
+
+}
+
+h1 {
+    color: black;
+  
+    text-align: center;
+    /* font-weight: 2em;*/
+    font-size: 10em;
+    background-color: black;
+    -webkit-text-stroke: 3px;
+    -webkit-text-stroke-color: yellow;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+/*img{
+width: 250px;
+height: 250px;
+
+}*/
+
+.rounded{
+   margin: 5%;
+    width: 550px;
+    height: 550px;
+}
